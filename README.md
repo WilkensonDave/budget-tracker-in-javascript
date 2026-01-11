@@ -1,4 +1,4 @@
-![Alt text](images/budget tracker.PNG)
+![Alt text](images/budget_tracker.PNG)
 
 # This is a simle budegt tracking app build using HTML, css, and Javascript.
 
