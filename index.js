@@ -16,6 +16,11 @@ function AddExpense(e){
     e.preventDefault();
     let expenseAmount = parseFloat(amount.value);
     let expenseDescription = description.value;
+    if(isNaN(expenseAmount) || expenseAmount === 0){
+        alert("Please Enter a valid number");
+        return;
+    }
+    
     transactions.push({
         id:Date.now(),
         expenseAmount,
